@@ -3,55 +3,55 @@ const RelationshipSection = () => {
   const steps = [
     {
       number: "01",
-      title: "Imersão e Diagnóstico",
-      description: "Mergulhamos na sua operação para entender cada detalhe e customizar a solução perfeita",
+      title: "Análise Inicial",
+      description: "Avaliação completa do seu ambiente e necessidades específicas de segurança",
       icon: "🔍"
     },
     {
       number: "02", 
       title: "Projeto Personalizado",
-      description: "Desenvolvimento de arquitetura customizada baseada nas necessidades específicas identificadas",
-      icon: "🎯"
+      description: "Desenvolvimento de solução customizada para sua operação",
+      icon: "📋"
     },
     {
       number: "03",
-      title: "Implementação Técnica",
-      description: "Instalação profissional com integração aos sistemas existentes e configuração otimizada",
+      title: "Implementação",
+      description: "Instalação profissional e configuração do sistema de monitoramento",
       icon: "⚙️"
     },
     {
       number: "04",
-      title: "Capacitação Completa",
-      description: "Treinamento intensivo da equipe para maximizar o potencial da tecnologia implementada",
+      title: "Treinamento",
+      description: "Capacitação completa da sua equipe para utilização do sistema",
       icon: "🎓"
     },
     {
       number: "05",
-      title: "Parceria Contínua",
-      description: "Acompanhamento permanente com otimizações, atualizações e suporte especializado",
+      title: "Suporte Contínuo",
+      description: "Acompanhamento, manutenção e otimizações constantes",
       icon: "🤝"
     }
   ];
 
-  const commitments = [
+  const values = [
     {
-      title: "Parceria Estratégica",
-      description: "Não entregamos um produto, integramos uma solução. Nosso sucesso está atrelado ao seu. Oferecemos uma parceria completa e duradoura.",
+      title: "Parceria Verdadeira",
+      description: "Não somos apenas fornecedores, somos parceiros estratégicos no seu sucesso e segurança",
       icon: "🤝"
     },
     {
-      title: "Interface Unificada", 
-      description: "Acompanhe tudo através de um dashboard intuitivo que transforma dados complexos em insights acionáveis e decisões estratégicas.",
-      icon: "📊"
-    },
-    {
-      title: "Equipe Dedicada 24/7",
-      description: "Acesso direto aos nossos especialistas, a qualquer hora, para qualquer desafio. Suporte técnico de excelência sempre disponível.",
+      title: "Suporte Excepcional", 
+      description: "Equipe especializada disponível 24/7 para garantir operação contínua",
       icon: "🚀"
     },
     {
       title: "Transparência Total",
-      description: "Comunicação clara, relatórios detalhados e métricas transparentes. Você sempre saberá exatamente como está sua operação.",
+      description: "Comunicação clara, relatórios detalhados e métricas transparentes",
+      icon: "📊"
+    },
+    {
+      title: "Inovação Constante",
+      description: "Atualizações regulares e novas funcionalidades sem custos adicionais",
       icon: "💡"
     }
   ];
@@ -67,15 +67,17 @@ const RelationshipSection = () => {
           {/* Cabeçalho da seção */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              Parceria Estratégica, <span className="text-accent">Suporte Total</span>
+              Como nos <span className="text-accent">Relacionamos</span>
+              <br />
+              <span className="text-3xl md:text-4xl">com Nossos Clientes</span>
             </h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Construímos relacionamentos duradouros baseados na confiança, excelência e resultados mensuráveis
+              Construímos relacionamentos duradouros baseados na confiança, excelência e resultados
             </p>
           </div>
           
-          {/* Processo de implementação */}
+          {/* Processo de trabalho */}
           <div className="mb-20">
             <h3 className="text-3xl font-bold text-primary text-center mb-12">
               Nosso Processo de <span className="text-accent">Implementação</span>
@@ -105,23 +107,23 @@ const RelationshipSection = () => {
             </div>
           </div>
           
-          {/* Nossos compromissos */}
+          {/* Nossos valores no relacionamento */}
           <div>
             <h3 className="text-3xl font-bold text-primary text-center mb-12">
               Nossos <span className="text-accent">Compromissos</span> com Você
             </h3>
             
             <div className="grid md:grid-cols-2 gap-8">
-              {commitments.map((commitment, index) => (
+              {values.map((value, index) => (
                 <div 
-                  key={commitment.title} 
+                  key={value.title} 
                   className="bg-white p-8 rounded-2xl shadow-lg hover-lift frosted-glass"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="text-4xl">{commitment.icon}</div>
+                    <div className="text-4xl">{value.icon}</div>
                     <div>
-                      <h4 className="text-xl font-semibold text-primary mb-3">{commitment.title}</h4>
-                      <p className="text-gray-700 leading-relaxed">{commitment.description}</p>
+                      <h4 className="text-xl font-semibold text-primary mb-3">{value.title}</h4>
+                      <p className="text-gray-700 leading-relaxed">{value.description}</p>
                     </div>
                   </div>
                 </div>
@@ -139,7 +141,7 @@ const RelationshipSection = () => {
                 </h3>
                 <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
                   Entre em contato conosco e descubra como podemos revolucionar 
-                  a segurança da sua operação com tecnologia de ponta
+                  a segurança da sua operação
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button className="bg-accent text-primary px-8 py-3 rounded-lg font-semibold text-lg hover:bg-accent/90 transition-colors">

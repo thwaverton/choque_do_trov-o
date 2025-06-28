@@ -11,28 +11,25 @@ const PlansSection = () => {
       features: [
         "Até 4 câmeras de monitoramento",
         "Alertas em tempo real",
-        "Análise básica de distância",
         "Relatórios mensais",
-        "Suporte técnico durante horário comercial",
-        "Dashboard web básico",
+        "Suporte técnico básico",
+        "Dashboard web",
       ],
       isPopular: false,
     },
     {
       name: "Professional",
       price: "R$ 5.999",
-      period: "/mês", 
+      period: "/mês",
       description: "Para operações de médio porte",
       features: [
-        "Até 15 câmeras de monitoramento",
+        "Até 12 câmeras de monitoramento",
         "Alertas instantâneos multi-canal",
-        "IA avançada de prevenção de acidentes",
-        "Análise preditiva de comportamento",
-        "Relatórios personalizados em tempo real",
+        "Relatórios semanais personalizados",
         "Suporte técnico prioritário 24/7",
-        "Dashboard completo + app mobile",
+        "Dashboard avançado + mobile app",
         "Integração com sistemas existentes",
-        "Treinamento da equipe incluído",
+        "Análise preditiva básica",
       ],
       isPopular: true,
     },
@@ -44,14 +41,13 @@ const PlansSection = () => {
       features: [
         "Câmeras ilimitadas",
         "Sistema de alertas customizado",
-        "IA proprietária para análise complexa",
-        "Integração completa com ERP/SAP",
-        "Relatórios executivos automatizados",
+        "Relatórios em tempo real",
         "Suporte dedicado 24/7/365",
-        "Plataforma white-label personalizada",
-        "Consultoria especializada contínua",
-        "Implementação e migração completa",
-        "SLA garantido de 99.9% uptime",
+        "Plataforma personalizada",
+        "Integração completa",
+        "IA avançada e machine learning",
+        "Consultoria especializada",
+        "Treinamento completo da equipe",
       ],
       isPopular: false,
     },
@@ -64,12 +60,11 @@ const PlansSection = () => {
           {/* Cabeçalho da seção */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Nosso Ecossistema de <span className="text-accent">Proteção</span>
+              Nossos <span className="text-accent">Planos</span>
             </h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Soluções inteligentes e personalizadas que se adaptam às necessidades específicas 
-              da sua operação, garantindo máxima segurança com tecnologia de ponta
+              Soluções flexíveis e personalizadas para atender às necessidades específicas do seu negócio
             </p>
           </div>
           
