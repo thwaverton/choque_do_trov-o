@@ -1,30 +1,329 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Subestação Segura - Segurança Inteligente com Visão Computacional</title>
-    <meta name="description" content="Prevenção de acidentes em ambientes de alta tensão com tecnologia de visão computacional avançada. Monitoramento inteligente para máxima segurança operacional." />
-    <meta name="keywords" content="segurança do trabalho, visão computacional, prevenção de acidentes, alta tensão, monitoramento inteligente" />
-    <meta name="author" content="Subestação Segura" />
-
-    <meta property="og:title" content="Subestação Segura - Segurança Inteligente" />
-    <meta property="og:description" content="Prevenção proativa de acidentes com tecnologia de visão computacional" />
-    <meta property="og:type" content="website" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Subestação Segura - Segurança Inteligente" />
-    <meta name="twitter:description" content="Prevenção proativa de acidentes com tecnologia de visão computacional" />
-
-    <!-- Google Fonts -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subestação Segura | Inovação em Segurança de Alta Tensão</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <div id="particles-js"></div>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Subestação <span>Segura</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Quem Somos</a></li>
+                <li><a href="#team">Nosso Time</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#relationship">Relacionamento</a></li>
+                <li><a href="#" class="cta-button-nav">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="animate-on-load">Tecnologia Preditiva. Segurança Absoluta.</h1>
+                <p class="animate-on-load">Revolucionamos a segurança de subestações com IA e monitoramento em tempo real, transformando dados em proteção.</p>
+                <a href="#services" class="cta-button animate-on-load">Explore Nossas Soluções</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container section-layout">
+                <div class="section-text">
+                    <h2 class="section-title">Nascemos da <span>Inovação</span></h2>
+                    <p>A Subestação Segura não é apenas uma empresa de segurança; somos um laboratório de inovação focado no setor elétrico. Unimos décadas de experiência em engenharia com o poder da inteligência artificial para criar um ecossistema onde a infraestrutura crítica é autônoma, resiliente e, acima de tudo, segura.</p>
+                </div>
+                <div class="section-image">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop" alt="Engenharia e tecnologia de ponta">
+                </div>
+            </div>
+        </section>
+        
+        <section id="team" class="content-section bg-darker">
+            <div class="container">
+                <h2 class="section-title text-center">Os Especialistas por Trás da <span>Tecnologia</span></h2>
+                <div class="team-grid">
+                    <div class="team-card aurora-card">
+                        <img src="https://images.unsplash.com/photo-1583341612448-374a5d35a146?q=80&w=1887&auto=format&fit=crop" alt="Foto do Membro 1">
+                        <h3>Ana Oliveira</h3>
+                        <p class="team-role">CEO e Estrategista Chefe</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-card aurora-card">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop" alt="Foto do Membro 2">
+                        <h3>Bruno Costa</h3>
+                        <p class="team-role">Diretor de IA e Análise Preditiva</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-card aurora-card">
+                        <img src="https://images.unsplash.com/photo-1592621385612-4bb34316a764?q=80&w=1887&auto=format&fit=crop" alt="Foto do Membro 3">
+                        <h3>Carla Martins</h3>
+                        <p class="team-role">Engenheira Chefe de Alta Tensão</p>
+                        <div class="social-links">
+                           <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-card aurora-card">
+                        <img src="https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=1887&auto=format&fit=crop" alt="Foto do Membro 4">
+                        <h3>Diego Santos</h3>
+                        <p class="team-role">Líder de Hardware e IoT</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                             <a href="#" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="content-section">
+            <div class="container">
+                <h2 class="section-title text-center">Nosso Ecossistema de <span>Proteção</span></h2>
+                <div class="services-grid">
+                    <div class="service-card aurora-card">
+                        <div class="card-icon"><i class="fa-solid fa-satellite-dish"></i></div>
+                        <h3>Monitoramento Neural</h3>
+                        <p>Uma rede de sensores inteligentes que operam como um sistema nervoso, detectando anomalias em tempo real com precisão milimétrica.</p>
+                    </div>
+                    <div class="service-card aurora-card">
+                        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3>IA Preditiva "Oracle"</h3>
+                        <p>Nossa IA proprietária não apenas prevê falhas, mas simula futuros cenários para otimizar a manutenção e a resposta a incidentes.</p>
+                    </div>
+                    <div class="service-card aurora-card">
+                        <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Barreira Perimetral Ativa</h3>
+                        <p>Integração de drones, sensores sísmicos e IA para criar uma defesa impenetrável contra qualquer ameaça física.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-showcase" class="content-section text-center">
+            <div class="container">
+                 <h2 class="section-title">Veja nossa tecnologia em <span>Ação</span></h2>
+                <p class="section-subtitle" style="margin-bottom: 50px;">Monitoramento contínuo e inteligente para garantir a máxima segurança da sua operação.</p>
+                <div class="video-box">
+                    <video playsinline autoplay muted loop controls>
+                        <source src="video.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="relationship" class="content-section bg-darker">
+            <div class="container section-layout reverse">
+                <div class="section-text">
+                    <h2 class="section-title">Parceria Estratégica, <span>Suporte Total</span></h2>
+                    <p>Não entregamos um produto, integramos uma solução. Nosso sucesso está atrelado ao seu. Por isso, oferecemos uma parceria completa:</p>
+                    <ul>
+                        <li><strong>Imersão e Diagnóstico:</strong> Mergulhamos na sua operação para customizar cada detalhe da solução.</li>
+                        <li><strong>Interface Unificada:</strong> Acompanhe tudo através de um dashboard intuitivo que transforma dados complexos em insights acionáveis.</li>
+                        <li><strong>Equipe Dedicada 24/7:</strong> Acesso direto aos nossos especialistas, a qualquer hora, para qualquer desafio.</li>
+                    </ul>
+                </div>
+                <div class="section-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Análise de dados em parceria com o cliente">
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="content-section">
+            <div class="container">
+                <h2 class="section-title text-center">Nosso Processo de <span>Implementação</span></h2>
+                <div class="process-grid">
+                    
+                    <div class="process-step">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon">🔍</div>
+                            <div class="process-number">01</div>
+                        </div>
+                        <h4>Análise Inicial</h4>
+                        <p>Avaliação completa do seu ambiente e necessidades específicas de segurança.</p>
+                        <div class="process-line"></div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon">📋</div>
+                            <div class="process-number">02</div>
+                        </div>
+                        <h4>Projeto Personalizado</h4>
+                        <p>Desenvolvimento de solução customizada para sua operação.</p>
+                        <div class="process-line"></div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon">⚙️</div>
+                            <div class="process-number">03</div>
+                        </div>
+                        <h4>Implementação</h4>
+                        <p>Instalação profissional e configuração do sistema de monitoramento.</p>
+                        <div class="process-line"></div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon">🎓</div>
+                            <div class="process-number">04</div>
+                        </div>
+                        <h4>Treinamento</h4>
+                        <p>Capacitação completa da sua equipe para utilização do sistema.</p>
+                        <div class="process-line"></div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon">🤝</div>
+                            <div class="process-number">05</div>
+                        </div>
+                        <h4>Suporte Contínuo</h4>
+                        <p>Acompanhamento, manutenção e otimizações constantes.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="plans" class="content-section bg-darker">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title">Nossos <span>Planos</span></h2>
+                    <p class="section-subtitle">Soluções flexíveis e personalizadas para atender às necessidades específicas do seu negócio.</p>
+                </div>
+
+                <div class="plans-grid">
+                    <!-- Plano Starter -->
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Starter</h3>
+                            <p>Ideal para pequenas instalações</p>
+                            <div class="plan-price">R$ 2.999<span>/mês</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i>Até 4 câmeras de monitoramento</li>
+                            <li><i class="fa-solid fa-check"></i>Alertas em tempo real</li>
+                            <li><i class="fa-solid fa-check"></i>Relatórios mensais</li>
+                            <li><i class="fa-solid fa-check"></i>Suporte técnico básico</li>
+                            <li><i class="fa-solid fa-check"></i>Dashboard web</li>
+                        </ul>
+                        <a href="#" class="plan-button">Contratar Agora</a>
+                    </div>
+
+                    <!-- Plano Professional -->
+                    <div class="plan-card popular">
+                        <div class="popular-badge">MAIS POPULAR</div>
+                        <div class="plan-header">
+                            <h3>Professional</h3>
+                            <p>Para operações de médio porte</p>
+                            <div class="plan-price">R$ 5.999<span>/mês</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i>Até 12 câmeras de monitoramento</li>
+                            <li><i class="fa-solid fa-check"></i>Alertas instantâneos multi-canal</li>
+                            <li><i class="fa-solid fa-check"></i>Relatórios semanais personalizados</li>
+                            <li><i class="fa-solid fa-check"></i>Suporte técnico prioritário 24/7</li>
+                            <li><i class="fa-solid fa-check"></i>Dashboard avançado + mobile app</li>
+                            <li><i class="fa-solid fa-check"></i>Integração com sistemas existentes</li>
+                            <li><i class="fa-solid fa-check"></i>Análise preditiva básica</li>
+                        </ul>
+                        <a href="#" class="plan-button popular-button">Contratar Agora</a>
+                    </div>
+
+                    <!-- Plano Enterprise -->
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Enterprise</h3>
+                            <p>Soluções corporativas completas</p>
+                            <div class="plan-price">Personalizado</div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i>Câmeras ilimitadas</li>
+                            <li><i class="fa-solid fa-check"></i>Sistema de alertas customizado</li>
+                            <li><i class="fa-solid fa-check"></i>Relatórios em tempo real</li>
+                            <li><i class="fa-solid fa-check"></i>Suporte dedicado 24/7/365</li>
+                            <li><i class="fa-solid fa-check"></i>Plataforma personalizada</li>
+                            <li><i class="fa-solid fa-check"></i>Integração completa</li>
+                            <li><i class="fa-solid fa-check"></i>IA avançada e machine learning</li>
+                            <li><i class="fa-solid fa-check"></i>Consultoria especializada</li>
+                            <li><i class="fa-solid fa-check"></i>Treinamento completo da equipe</li>
+                        </ul>
+                        <a href="#" class="plan-button">Solicitar Cotação</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3 class="footer-logo">Subestação <span>Segura</span></h3>
+                <p>Liderando a revolução da segurança industrial com tecnologia de visão computacional avançada para prevenção de acidentes em ambientes de alta tensão.</p>
+                <div class="footer-contact">
+                    <p><i class="fa-solid fa-envelope"></i> contato@subestacaosegura.com.br</p>
+                    <p><i class="fa-solid fa-phone"></i> (11) 9999-9999</p>
+                    <p><i class="fa-solid fa-location-dot"></i> São Paulo, SP - Brasil</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Soluções</h4>
+                <ul>
+                    <li><a href="#">Monitoramento Inteligente</a></li>
+                    <li><a href="#">Análise Preditiva</a></li>
+                    <li><a href="#">Alertas em Tempo Real</a></li>
+                    <li><a href="#">Relatórios Personalizados</a></li>
+                    <li><a href="#">Consultoria Especializada</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Documentação</a></li>
+                    <li><a href="#">Treinamentos</a></li>
+                    <li><a href="#">Suporte Técnico</a></li>
+                    <li><a href="#">Status do Sistema</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Siga-nos</h4>
+                 <div class="social-links-footer">
+                    <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Subestação Segura. A Vanguarda da Segurança Energética.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
 </html>
