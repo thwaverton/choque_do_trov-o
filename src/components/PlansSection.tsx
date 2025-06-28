@@ -4,49 +4,49 @@ import { Button } from '@/components/ui/button';
 const PlansSection = () => {
   const plans = [
     {
-      name: "Starter",
-      price: "R$ 2.999",
+      name: "Básico",
+      price: "R$ 1.499",
       period: "/mês",
-      description: "Ideal para pequenas instalações",
+      description: "Ideal para pequenos negócios",
       features: [
-        "Até 4 câmeras de monitoramento",
-        "Alertas em tempo real",
-        "Relatórios mensais",
-        "Suporte técnico básico",
-        "Dashboard web",
+        "Até 2 pontos de monitoramento",
+        "Alertas via WhatsApp",
+        "Relatórios mensais básicos",
+        "Suporte via chat",
+        "Dashboard web simples",
       ],
       isPopular: false,
     },
     {
-      name: "Professional",
-      price: "R$ 5.999",
+      name: "Profissional",
+      price: "R$ 3.999",
       period: "/mês",
-      description: "Para operações de médio porte",
+      description: "Para empresas em crescimento",
       features: [
-        "Até 12 câmeras de monitoramento",
-        "Alertas instantâneos multi-canal",
-        "Relatórios semanais personalizados",
-        "Suporte técnico prioritário 24/7",
-        "Dashboard avançado + mobile app",
+        "Até 8 pontos de monitoramento",
+        "Alertas multi-canal instantâneos",
+        "Relatórios personalizados semanais",
+        "Suporte prioritário 24/7",
+        "Dashboard avançado + app mobile",
         "Integração com sistemas existentes",
-        "Análise preditiva básica",
+        "Análise de tendências",
       ],
       isPopular: true,
     },
     {
       name: "Enterprise",
-      price: "Personalizado",
+      price: "Sob Consulta",
       period: "",
       description: "Soluções corporativas completas",
       features: [
-        "Câmeras ilimitadas",
+        "Monitoramento ilimitado",
         "Sistema de alertas customizado",
         "Relatórios em tempo real",
         "Suporte dedicado 24/7/365",
-        "Plataforma personalizada",
-        "Integração completa",
-        "IA avançada e machine learning",
-        "Consultoria especializada",
+        "Plataforma white-label",
+        "Integração completa via API",
+        "Inteligência artificial avançada",
+        "Consultoria especializada incluída",
         "Treinamento completo da equipe",
       ],
       isPopular: false,
@@ -64,7 +64,7 @@ const PlansSection = () => {
             </h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Soluções flexíveis e personalizadas para atender às necessidades específicas do seu negócio
+              Soluções flexíveis do Choque do Trovão para proteger seu negócio com tecnologia de ponta
             </p>
           </div>
           
@@ -99,7 +99,7 @@ const PlansSection = () => {
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start">
                       <span className="w-5 h-5 bg-accent rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                        <span className="text-primary text-sm font-bold">✓</span>
+                        <span className="text-primary text-sm font-bold">⚡</span>
                       </span>
                       <span className="text-gray-700">{feature}</span>
                     </li>
@@ -124,17 +124,17 @@ const PlansSection = () => {
             <div className="inline-flex items-center space-x-8 bg-white/10 frosted-glass px-8 py-4 rounded-2xl">
               <div className="text-center">
                 <div className="text-2xl font-bold text-accent">24/7</div>
-                <div className="text-white/80">Monitoramento</div>
+                <div className="text-white/80">Proteção</div>
               </div>
               <div className="w-px h-12 bg-white/20"></div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">99.9%</div>
-                <div className="text-white/80">Disponibilidade</div>
+                <div className="text-2xl font-bold text-accent">99.8%</div>
+                <div className="text-white/80">Precisão</div>
               </div>
               <div className="w-px h-12 bg-white/20"></div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">0 Acidentes</div>
-                <div className="text-white/80">Nosso Objetivo</div>
+                <div className="text-2xl font-bold text-accent">⚡ Rápido</div>
+                <div className="text-white/80">Como um Raio</div>
               </div>
             </div>
           </div>

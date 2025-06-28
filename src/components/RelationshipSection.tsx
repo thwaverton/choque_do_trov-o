@@ -3,55 +3,55 @@ const RelationshipSection = () => {
   const steps = [
     {
       number: "01",
-      title: "Análise Inicial",
-      description: "Avaliação completa do seu ambiente e necessidades específicas de segurança",
-      icon: "🔍"
+      title: "Análise do Ambiente",
+      description: "Avaliação completa dos riscos elétricos e necessidades de proteção",
+      icon: "⚡"
     },
     {
       number: "02", 
       title: "Projeto Personalizado",
-      description: "Desenvolvimento de solução customizada para sua operação",
-      icon: "📋"
+      description: "Desenvolvimento de solução sob medida para sua operação",
+      icon: "🎯"
     },
     {
       number: "03",
-      title: "Implementação",
-      description: "Instalação profissional e configuração do sistema de monitoramento",
-      icon: "⚙️"
+      title: "Instalação Rápida",
+      description: "Implementação profissional do sistema Choque do Trovão",
+      icon: "🔧"
     },
     {
       number: "04",
-      title: "Treinamento",
-      description: "Capacitação completa da sua equipe para utilização do sistema",
+      title: "Treinamento Total",
+      description: "Capacitação completa da equipe para máxima segurança",
       icon: "🎓"
     },
     {
       number: "05",
       title: "Suporte Contínuo",
-      description: "Acompanhamento, manutenção e otimizações constantes",
-      icon: "🤝"
+      description: "Monitoramento e otimizações constantes do sistema",
+      icon: "🚀"
     }
   ];
 
   const values = [
     {
-      title: "Parceria Verdadeira",
-      description: "Não somos apenas fornecedores, somos parceiros estratégicos no seu sucesso e segurança",
+      title: "Parceria de Confiança",
+      description: "Somos mais que fornecedores - somos seus parceiros na segurança elétrica",
       icon: "🤝"
     },
     {
-      title: "Suporte Excepcional", 
-      description: "Equipe especializada disponível 24/7 para garantir operação contínua",
-      icon: "🚀"
+      title: "Resposta Instantânea", 
+      description: "Equipe especializada disponível 24/7 para emergências e suporte",
+      icon: "⚡"
     },
     {
-      title: "Transparência Total",
-      description: "Comunicação clara, relatórios detalhados e métricas transparentes",
+      title: "Transparência Completa",
+      description: "Relatórios detalhados e comunicação clara em cada etapa",
       icon: "📊"
     },
     {
       title: "Inovação Constante",
-      description: "Atualizações regulares e novas funcionalidades sem custos adicionais",
+      description: "Atualizações automáticas e novas funcionalidades sem custos extras",
       icon: "💡"
     }
   ];
@@ -67,13 +67,13 @@ const RelationshipSection = () => {
           {/* Cabeçalho da seção */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              Como nos <span className="text-accent">Relacionamos</span>
+              Como o <span className="text-accent">Choque do Trovão</span>
               <br />
-              <span className="text-3xl md:text-4xl">com Nossos Clientes</span>
+              <span className="text-3xl md:text-4xl">se Relaciona com Você</span>
             </h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Construímos relacionamentos duradouros baseados na confiança, excelência e resultados
+              Construímos relacionamentos sólidos baseados na proteção, excelência e resultados duradouros
             </p>
           </div>
           
@@ -137,11 +137,11 @@ const RelationshipSection = () => {
               <div className="absolute inset-0 sparkle-bg opacity-30"></div>
               <div className="relative z-10">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                  Pronto para Transformar sua <span className="text-accent">Segurança?</span>
+                  Pronto para a Proteção do <span className="text-accent">Choque do Trovão?</span>
                 </h3>
                 <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
-                  Entre em contato conosco e descubra como podemos revolucionar 
-                  a segurança da sua operação
+                  Fale conosco e descubra como revolucionar a segurança elétrica 
+                  da sua empresa com nossa tecnologia
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button className="bg-accent text-primary px-8 py-3 rounded-lg font-semibold text-lg hover:bg-accent/90 transition-colors">
